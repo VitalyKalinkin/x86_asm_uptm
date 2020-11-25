@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleAddition", "SimpleAddition\SimpleAddition.vcxproj", "{FE80BB36-D28A-4B64-B436-BFFD122B7647}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "backward_compability_registers", "backward_compability_registers\backward_compability_registers.vcxproj", "{EE514255-E4F2-4EDD-9D58-5982E6EE9542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FE80BB36-D28A-4B64-B436-BFFD122B7647}.Release|x64.Build.0 = Release|x64
 		{FE80BB36-D28A-4B64-B436-BFFD122B7647}.Release|x86.ActiveCfg = Release|Win32
 		{FE80BB36-D28A-4B64-B436-BFFD122B7647}.Release|x86.Build.0 = Release|Win32
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Debug|x64.ActiveCfg = Debug|x64
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Debug|x64.Build.0 = Debug|x64
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Debug|x86.Build.0 = Debug|Win32
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Release|x64.ActiveCfg = Release|x64
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Release|x64.Build.0 = Release|x64
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Release|x86.ActiveCfg = Release|Win32
+		{EE514255-E4F2-4EDD-9D58-5982E6EE9542}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
