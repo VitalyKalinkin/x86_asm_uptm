@@ -11,7 +11,7 @@ int main()
     std::array<int32_t, n> src_array, dst_array;
 
     for (size_t i = 0; i < n; i++) {
-        src_array[i] = static_cast<int8_t>(i);
+        src_array[i] = static_cast<int32_t>(i);
         dst_array[i] = 0;
     }
 
@@ -20,8 +20,9 @@ int main()
     std::cout << "-------------Array Reverser------------\n";
     for (size_t i = 0; i < n; i++) {
         std::cout << "i: " << i
-                  << ", src: " << static_cast<int16_t>(src_array[i])
-                  << ", dst: " << static_cast<int16_t>(dst_array[i]) << std::endl;
+                  << ", src: " << +src_array[i]
+                  << ", dst: " << +dst_array[i] 
+                  << std::endl;
     }
 
     return 0;
