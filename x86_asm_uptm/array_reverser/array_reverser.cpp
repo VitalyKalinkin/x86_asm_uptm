@@ -3,7 +3,7 @@
 #include <array>
 #include <stdlib.h>
 
-extern "C" void reverse_array(int32_t* dst, const int32_t * src, int32_t n);
+extern "C" void reverse_array(int32_t* dst, const int32_t* src, int32_t n);
 
 int main()
 {
