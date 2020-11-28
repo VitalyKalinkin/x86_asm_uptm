@@ -5,7 +5,7 @@ extern "C" int32_t integer_mul_div(int32_t a, int32_t b, int32_t * prod, int32_t
 int main()
 {
     int32_t prod, quo, rem;
-    integer_mul_div(31, 9, &prod, &quo, &rem);
+    integer_mul_div(21, 9, &prod, &quo, &rem);
     std::cout << "Multiplication/Division: " << std::endl;
     std::cout << "  a * b = " << prod << std::endl;
     std::cout << "  a / b = " << quo << std::endl;
