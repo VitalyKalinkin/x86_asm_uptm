@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 extern "C" int8_t gl_char = 10;
 extern "C" int16_t gl_short = 20;
@@ -18,9 +19,9 @@ int main()
         << ", gl_short = " << gl_short
         << ", gl_int = " << gl_int
         << ", gl_long = " << gl_long << std::endl;
-    integer_addition(1, 2, 3, 4);
+    integer_addition(1, 2, 3, 0x0000000FFFFFFFFF);
     std::cout << "gl_char = " << +gl_char
         << ", gl_short = " << gl_short
         << ", gl_int = " << gl_int
-        << ", gl_long = " << gl_long << std::endl;
+        << ", gl_long = " << std::hex << gl_long << std::endl;
 }
