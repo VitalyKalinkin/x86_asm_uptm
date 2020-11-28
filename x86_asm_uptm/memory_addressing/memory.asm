@@ -57,6 +57,12 @@ memory_addressing PROC
                   mov eax, [ebx + esi * 4]
                   mov edi, [ebp + 24]
                   mov [edi], eax
+
+                  ; v5 -- index register * scale_factor + displacement			  
+                  mov esi, [ebp + 8]        
+                  mov eax, [esi * 4 + fib_vals]
+                  mov edi, [ebp + 28]
+                  mov [edi], eax
                   mov eax, 1
 
                   ; epilog
